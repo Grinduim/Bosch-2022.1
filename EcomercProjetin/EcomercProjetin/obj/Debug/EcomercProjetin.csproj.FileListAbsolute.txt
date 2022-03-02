@@ -1,0 +1,7 @@
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\bin\Debug\EcomercProjetin.exe.config
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\bin\Debug\EcomercProjetin.exe
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\bin\Debug\EcomercProjetin.pdb
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\obj\Debug\EcomercProjetin.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\obj\Debug\EcomercProjetin.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\obj\Debug\EcomercProjetin.exe
+C:\Users\disrct\Desktop\EcomercProjetin\EcomercProjetin\obj\Debug\EcomercProjetin.pdb
