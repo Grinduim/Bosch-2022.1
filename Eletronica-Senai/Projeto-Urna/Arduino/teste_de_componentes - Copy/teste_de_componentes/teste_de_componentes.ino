@@ -103,7 +103,7 @@ void setup()
   Serial.println();
   Serial.println("Conectado");
 
-  Firebase.begin(API_KEY, URL_FIREBASE);
+  Firebase.begin(URL_FIREBASE,API_KEY);
   Firebase.reconnectWiFi(true);
   Firebase.setReadTimeout( firebaseData, 10 * 60);
   Firebase.setwriteSizeLimit(firebaseData, "tiny");
