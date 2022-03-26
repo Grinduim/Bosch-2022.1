@@ -1,4 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    displaY:border-box;
+}
 
+body{
+    height:100%;
+    width:100%;
+}
 .title{
    font-family:'Sen';
    font-size: 36px;
@@ -8,24 +17,34 @@
    margin-top: 1.5em;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom:4rem;
    
    padding: auto;
    display:flex;
    justify-content:center;
+   text-align: center;
 }
+
+
 
 .container-itens{
     display:flex;
     justify-content:space-around;
-
+    flex-wrap: wrap;
     margin-top:2rem;
+    gap:40px;
 
 }
 
 .item{
     border:3px solid #000000;
     border-radius: 43px 0px 43px 43px;
-    height:17rem;
+    height:auto;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+
 }
 
 .item h1{
@@ -36,9 +55,40 @@
     margin:0;
     border-radius: 43px 0;
 
-    width: 15rem;
+    width: 100;
 
     display:flex;
-    justify-content: center;
-
+    justify-content:center;
 }
+
+.details{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    gap:0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.details h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.details p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.details img{
+    margin: 0.8rem;
+}
+
+
