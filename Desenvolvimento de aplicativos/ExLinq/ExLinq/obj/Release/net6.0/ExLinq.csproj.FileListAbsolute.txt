@@ -1,0 +1,15 @@
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ExLinq.exe
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ExLinq.deps.json
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ExLinq.runtimeconfig.json
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ExLinq.dll
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ref\ExLinq.dll
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\bin\Release\net6.0\ExLinq.pdb
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.AssemblyInfo.cs
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.dll
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ref\ExLinq.dll
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.pdb
+C:\Users\vinic\Desktop\Bosch-2022.1\Desenvolvimento de aplicativos\ExLinq\ExLinq\obj\Release\net6.0\ExLinq.genruntimeconfig.cache
