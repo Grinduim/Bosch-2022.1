@@ -199,15 +199,6 @@ static class Pesquisador
         //selecionar o salario dos professores e dividir pela quantidade de alunos
         // o salario do professor por aluno, ver onde 
 
-
-        var Professor = uni.Professores
-            .Select(x => new
-            {
-                Nome = x.Nome,
-                Salario = x.Salario,
-                ProfessorId = x.ID,
-            });
-
         var AlunosporTurma = uni.Alunos.SelectMany(
             a => a.TurmasMatriculados.Select(x => new
             {
@@ -238,9 +229,14 @@ static class Pesquisador
             ).GroupBy(x => x.ProfessorID)
             .Select(x => new
             {
-                PRofessorId = x.Key,
-                Valor = x.Sum(x=> x.QtdAlunos)
-            });
+                ProfessorId = x.Key,
+                QtdAlunos = x.Sum(x=> x.QtdAlunos) // terminar essa parte do join 
+            })
+            .Join(uni.Professores,
+            g => g.ProfessorId,
+            h => h.ID,
+            (g,h) => new { Nome = h.Nome, Valor = h.Salario/g.QtdAlunos}
+            );
             //.Join(Professor,
             //g => g.ProfessorID,
             //h => h.ProfessorId,
@@ -250,7 +246,7 @@ static class Pesquisador
 
         foreach (var item in SalarioPorCabeca)
         {
-            Console.WriteLine(item.Valor);
+            Console.WriteLine($"O professor {item.Nome} recebe {item.Valor} por aluno");
         }
 
     }
