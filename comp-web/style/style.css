@@ -181,6 +181,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 1.5em;
+    padding-bottom: 1.5em;
     align-items: top;
     justify-content: center;
     gap: 3em;
@@ -239,6 +240,7 @@
 }
 
 footer{
+    margin-top: 1em;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -261,4 +263,15 @@ footer{
     color: #043465;
     font-size: 2rem;
     
+}
+
+.item{
+    content: " ";
+    width: 3.5em;
+    height: 0.35em;
+    display: block;
+    background-color: #72130D;;
+    display: flex;
+    justify-self: center;
+    align-content: center;
 }
