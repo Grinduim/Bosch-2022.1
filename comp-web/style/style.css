@@ -18,7 +18,7 @@
     font-size: 1em;
     text-decoration: none;
     font-weight: 700;
-    height: 3rem;
+    height: 3.5rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -27,7 +27,7 @@
     justify-content: space-around;
     align-content: center;
     width: 40em;
-    gap:0.9em;
+    gap:1em;
 }
 
 .class-icon{
@@ -47,21 +47,31 @@
     background-color: #29A932;
     padding: 3px;
     padding-left: 1rem;
+    padding:0.5em;
     padding-right: 1em;
-    border-radius: 0.9em;
+    border-radius: 0.5em;
     color: azure;
 }
+
+#wpp:hover{
+    background-color: #1f6924;
+}
 #wpp > img{
-    width: 1.2rem;
+    width: 1.4rem;
 }
 
 #chat {
     background-color:#01BB9A ;
     padding: 3px;
-    padding-left: 0.9em;
-    padding-right: 0.9em;
-    border-radius: 0.9em;
+    padding-left: 1rem;
+    padding:0.5em;
+    padding-right: 1em;
+    border-radius: 0.5em;
     color: azure;
+}
+
+#chat:hover {
+    background-color:#0e7965 ;
 }
 
 .container-nav-bar{
@@ -96,21 +106,21 @@
     background-image: url("../images/Web-3.0.jpg");
     background-size: cover;
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: center;
 }
 
 .capa h2 {
 
     color: white;
-    font-size: 0.9em;
-    margin-top: 2em;
+    font-size: 2em;
+    margin-bottom: 5em;
 }
 
 .bem-vindo-container{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 45% 55%;
     margin-left: 8%;
     margin-right: 8%;
     gap: 8%;
@@ -162,7 +172,7 @@
     color:#8a8585 ;
 }
 
-#bem-vindo-container-button{
+.bem-vindo-container-button{
     background-color: #72130D;;
     color: #FFFFFF;
     display: flex;
@@ -171,6 +181,10 @@
     width: 12.5em;
     height: 2em;
     border-radius: 0.25em;
+}
+
+.bem-vindo-container-button:hover{
+    background-color: #3f0c08 ;
 }
 
 .container-servicos{
@@ -184,7 +198,7 @@
     padding-bottom: 1.5em;
     align-items: top;
     justify-content: center;
-    gap: 3em;
+    gap: 5em;
 
 }
 
@@ -198,7 +212,7 @@
     justify-content: center;
     align-content: center;
     gap: 1.2em;
-    width: 250px;
+    width: 15em;
 }
 
 .container-servicos-title{
@@ -209,13 +223,13 @@
 }
 
 .container-servicos-image{
-    width: 10em;
+    width: 13em;
     display: flex;
     justify-content: center;
     align-self: center;
     justify-self: center;
     margin-top: 1em;
-    border-radius: 1.5em;
+    border-radius: 0.4em;
 }
 
 .container-servicos-text{
@@ -225,7 +239,7 @@
     text-align: center;
 }
 
-#container-servicos-buttom{
+.container-servicos-buttom{
     background-color: #72130D;;
     color: #FFFFFF;
     display: flex;
@@ -237,6 +251,10 @@
     width: 12.5em;
     height: 2em;
     border-radius: 0.25em;
+}
+
+.container-servicos-buttom:hover{
+    background-color: #3f0c08 ;;
 }
 
 footer{
@@ -267,11 +285,13 @@ footer{
 
 .item{
     content: " ";
-    width: 3.5em;
-    height: 0.35em;
+    width: 4em;
+    height: 0.5em;
     display: block;
+    right: a;
     background-color: #72130D;;
     display: flex;
     justify-self: center;
     align-content: center;
+    margin-left: 15em;
 }
