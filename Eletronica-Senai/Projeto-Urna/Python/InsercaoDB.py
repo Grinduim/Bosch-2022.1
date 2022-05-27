@@ -39,9 +39,13 @@ def InsertDb(Voto):
     # )
     #///////////////////////////////////////////////////////////////////////////////
 
-    ServerSQL  = "DESKTOP-S4T02R7\SQLEXPRESS" # SERVER NAME
-    MinhaDataBase = "VotosUrna" # my database name
-    conexao = pyodbc.connect(driver = '{SQL Server}',  serve = ServerSQL,database=MinhaDataBase,Trusted_Connection=True) # connection ops
+   # ServerSQL  = "CCH06LABM01\SQLEXPRESS" # SERVER NAME
+    #MinhaDataBase = "VotosUrna" # my database name
+    #conexao = pyodbc.connect(driver ='{SQL Server}',  serve=ServerSQL , database=MinhaDataBase , Trusted_Connection=True) # connection ops
+    server = 'CCH06LABM01\SQLEXPRESS' 
+    database = 'VotosUrna' 
+    conexao = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';Trusted_Connection=yes;')
+
     cursor = conexao.cursor()
     cursor.execute(f"Insert into VotosUrna1 (Voto) values ({Voto})")
     cursor.commit()
