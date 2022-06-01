@@ -4,8 +4,6 @@
 #include <FirebaseESP32.h>
 
 #include <LiquidCrystal_I2C.h>
-
-#include <dummy.h>
 #include <Ultrasonic.h>
 #include <Keypad.h> // lib para a leitura do teclado
 #include <string.h>
@@ -23,8 +21,8 @@ LiquidCrystal_I2C lcd(0x27, 20, 4); // quatidade de linhas e colunas com a porta
 #define WIFI_SSID "espteste" // definindo o nome do wifi
 #define WIFI_PASS "teste123" // definindo o a senha do wifi
 
-#define API_KEY "yJcRqOjKw1UU8sF7lkLozqUOIbf5owXRNLJ5B92Q"
-#define URL_FIREBASE "https://projetournasenai-default-rtdb.firebaseio.com/" // dados para o firebase
+#define API_KEY "BqDSZa96Q2wUqiZ0ziywmaVXPLEshMIYqsbNm0NN"
+#define URL_FIREBASE "https://urnaeletronica-c4da3-default-rtdb.firebaseio.com/" // dados para o firebase
 
 FirebaseData firebaseData;
 FirebaseJson json;
@@ -143,8 +141,6 @@ void loop()
 
       delay(2500);
     }
-    // SE ACHAR ENVIAR DADOS PARA FIREBASE E ATUALIZAR TAG DE ENVIO
-    // CASO NÃO DAR MSG DE ERRO E ENVIAR VOLTAR A TELA DE INSERÇÃO DE USUARIOSS ----> 00 NULO
 
   }
 }
@@ -188,7 +184,7 @@ void InserirPresidente() {
   }
 }
 
-bool VerificarVoto() // eu aprei aquitenho q verificar sobre  strcomp https://www.delftstack.com/howto/c/compare-char-in-c/
+bool VerificarVoto()
 {
   struct candidato Lula;
 
@@ -273,7 +269,6 @@ bool VerificarVoto() // eu aprei aquitenho q verificar sobre  strcomp https://ww
           return true;
         }
         else if (Tecla == 'B'  || Tecla == 'b') {
-          //          Voltar para o MENU!
           delay(800);
           lcd.clear();
           lcd.setCursor(0, 1);
