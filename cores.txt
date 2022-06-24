@@ -1,0 +1,12 @@
+$colors: (
+  Bosch-Gray: #71767c,
+  Bosch-LightGray: #abb3bd,
+  Bosch-LightLightGray: #c8d1db,
+  Bosch-White: #ffffff,
+  Bosch-Black: #000000,
+  Bosch-Red: #ed0007,
+  Bosch-Purple: #9e2896,
+  Bosch-Blue: #007bc0,
+  Bosch-Turquoise: #18837e,
+  Bosch-Green: #00884a,
+);

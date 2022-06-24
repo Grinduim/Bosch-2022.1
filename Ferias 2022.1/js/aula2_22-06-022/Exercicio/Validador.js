@@ -41,7 +41,6 @@ function SegundoDigito(cpf) {
     return false;
   }
 }
-
 function VerificaValorDigito(SomaTotal) {
   let digito = 11 - (SomaTotal % 11);
   if (digito > 9) digito = 0;
@@ -62,5 +61,4 @@ function DigitosNaoIguas(cpf){
     }
     return flag;
 }
-
 ValidarCPF();

@@ -1,0 +1,17 @@
+<h1>Produto</h1>
+<div class="container-form">
+  <form action="">
+    <div class="input-field">
+      <label for="">Nome</label>
+      <input type="text">
+    </div>
+    <div class="input-field">
+      <label for="">Evento</label>
+      <input type="text">
+    </div>
+  </form>
+</div>
+<div>
+  <img src="https://www.svgrepo.com/show/92484/back.svg" alt="">
+  <img src="https://www.svgrepo.com/show/59692/save.svg" alt="">
+</div>
