@@ -14,7 +14,7 @@ const pool = new sql.ConnectionPool({
 
 pool.connect().then(() => {
   pool.request().query(
-    `Create table testeJS( id int not null, nome string not null)`,
+    `select * from TesteJS`,
     (err, result) => {
       if (err) console.log(err);
       else {
