@@ -1,5 +1,5 @@
 const sequelize = require('sequelize')
-const database = require('../')
+const database = require('../db')
 const schema = '';
 
 class Produto extends sequelize.Model { }

@@ -1,0 +1,278 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(228, 228, 228);
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+nav > * {
+  font-size: 1.6em;
+}
+
+.link {
+  color: lightslategray;
+}
+
+.nav-bar-title {
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.title {
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.container-form {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-content: space-between;
+  width: 45vw;
+  gap: 1.2em;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.form-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.form-description {
+  font-size: 1em;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.2em;
+  width: 100%;
+}
+
+.input-filed-name {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.input-field-input {
+  padding: 5px;
+
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.form button {
+  padding: 10px 20px;
+  color: white;
+  background-color: lightslategrey;
+  border: none;
+  transition: background-color 500ms ease-in;
+  border-radius: 2px;
+}
+
+.form button:hover {
+  background-color: black;
+}
+
+.error-page {
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.error-page h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.error-page p {
+  font-size: 2em;
+}
+
+table {
+  width: 50vw;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 0.9vh;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+.button-edit {
+  border-radius: 5px;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 0.5vh;
+}
+
+.button-delete {
+  border-radius: 5px;
+  background-color: lightcoral;
+  border: 1px solid black;
+  padding: 0.5vh;
+}
