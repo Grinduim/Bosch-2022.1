@@ -5,17 +5,14 @@ export default function Header(){
     return(
         <Nav>
             <div class='item-container'>
-            <p>Home</p>
+            {/*  aqui vai ter funções para entender aonde estou */}
+            <p>About</p>
+            <p>Skills</p>
             <p>Works</p>
-            <p>Contact</p>
             </div>
             <div class='item-container'>
-            <p>Home</p>
-            <p>Works</p>
             <p>Contact</p>
             </div>
-           
-
         </Nav>
     )
 }
