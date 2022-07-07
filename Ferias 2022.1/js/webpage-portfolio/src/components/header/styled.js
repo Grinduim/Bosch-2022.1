@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 
 export const Nav = styled.nav`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
     background: black;
     height:8vh;
     display: flex;
