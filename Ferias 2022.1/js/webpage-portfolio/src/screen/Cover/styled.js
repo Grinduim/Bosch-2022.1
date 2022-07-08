@@ -65,7 +65,7 @@ export const CoverStyle = styled.main`
     img{
         width: 300px;
         height: 300px;
-        border-radius: 200px;
+        border-radius: 74% 26% 64% 36% / 37% 70% 30% 63%  ;
         object-fit: cover;
         object-position: 100% 80%;
         border: 3px solid white;
@@ -74,10 +74,12 @@ export const CoverStyle = styled.main`
 
     img:hover{
         border: 3px solid red;
-        border-radius:100px;
+        border-radius:70% 30% 71% 29% / 29% 76% 24% 71%  ;
         width: 500px;
         height: 500px;
         transition: 0.8s;
+        object-fit: cover;
+        object-position: 100% 100%;
     }
 
 

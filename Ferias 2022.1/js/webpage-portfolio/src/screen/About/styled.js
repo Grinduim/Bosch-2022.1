@@ -40,7 +40,7 @@ export const AboutStyled = styled.section`
         padding: 2vh;
         text-indent: 1em;
         line-height: 25px;
-        grid-are
+        /* grid-are */
     }             
 
 `;
