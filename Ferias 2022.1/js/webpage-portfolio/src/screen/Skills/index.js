@@ -18,9 +18,11 @@ export default function Skills() {
         ps[indexmsg - 1].classList.remove("invisible")
     }
     return (
+        
         <>
+            
+            <SkillsStyle id = "skills">
             <Title >Skills</Title>
-            <SkillsStyle>
                 <div class="main">
                     <ul class="container-gallery">
                         <li onClick={() => Teste(1)}><img src="http://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="" /></li>

@@ -26,7 +26,7 @@ export const Nav = styled.nav`
         margin-left: 1.5em;
     }
 
-    .item-container p{
+    .item-container a{
         text-decoration: none;
         font-size: 1.3em;
     }

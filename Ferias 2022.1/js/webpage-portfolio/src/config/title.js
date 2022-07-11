@@ -6,6 +6,7 @@ export const Title = styled.h1`
     font-size: 2.5em;
     letter-spacing: 4px;
     color:white;
-    width: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
 `;

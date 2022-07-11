@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const SkillsStyle = styled.div`
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 80vh;
 
     .main{
-        height: 80vh;
         margin-top: 1%;
         color:white;
         display: flex;
