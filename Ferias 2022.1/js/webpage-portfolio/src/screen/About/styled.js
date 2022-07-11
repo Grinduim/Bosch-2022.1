@@ -3,15 +3,16 @@ import { Colors } from "../../config/colors";
 import { TitleFont } from "../../config/font";
 
 export const AboutStyled = styled.section`
+    padding-top: 200px;
     width: 100%;
-    height:100vh;
+    height:60vh;
     background-color: ${Colors.Black};
     color: white;
     display: flex;
     align-items:center;
     gap:1em;
     flex-direction: column;
-    #about{
+    h1{
         font-family: ${TitleFont};
         font-size: 2.5em;
         letter-spacing: 4px;
@@ -41,6 +42,11 @@ export const AboutStyled = styled.section`
         text-indent: 1em;
         line-height: 25px;
         /* grid-are */
-    }             
+    }          
+    
+    .emphasis{
+        display: inline;
+        color: red
+    }
 
 `;

@@ -17,20 +17,20 @@ export const CoverStyle = styled.main`
         
         top:auto;
         bottom:auto;
+        font-family: 'Roboto', sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
-        font-family: 'Roboto', sans-serif;
+        align-items: flex-start;
+
     }
 
     .title-container h1{
         font-size: 2.5em;
-        text-align: left;
+        text-align: start;
         letter-spacing: 8px;
         text-shadow: 5px 3px #414535;
         font-family: ${TitleFont};
-
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid orange; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
@@ -49,7 +49,8 @@ export const CoverStyle = styled.main`
       @keyframes blink-caret {
         from, to { border-color: transparent }
         50% { border-color: red; }
-      }
+    }
+    
     .title-container p{
         margin-top: 0.8em;
         font-size: 1.3em;
@@ -65,7 +66,7 @@ export const CoverStyle = styled.main`
     img{
         width: 300px;
         height: 300px;
-        border-radius: 74% 26% 64% 36% / 37% 70% 30% 63%  ;
+        border-radius: 74% 26% 64% 36% / 37% 70% 30% 63% ;
         object-fit: cover;
         object-position: 100% 80%;
         border: 3px solid white;

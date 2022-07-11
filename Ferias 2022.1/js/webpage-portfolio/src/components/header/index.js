@@ -6,6 +6,7 @@ export default function Header(){
         <Nav>
             <div class='item-container'>
             {/*  aqui vai ter funções para entender aonde estou */}
+            <a href="#about">About</a>
             <p>About</p>
             <p>Skills</p>
             <p>Works</p>

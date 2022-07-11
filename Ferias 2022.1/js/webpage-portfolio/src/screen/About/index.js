@@ -3,20 +3,19 @@ import { AboutStyled } from "./styled";
 
 export default function About() {
     return (
-        <AboutStyled>
+        <AboutStyled id="about">
 
-            <h1 id="about">About</h1>
+            <h1>About</h1>
             <div className="container-about">
                 <div class="text">
-                    <p >Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.
-                        Você usa o Lorem Ipsum tradicional? Sabe de nada inocente!! Conheça meu lorem que é Tchan, Tchan, Tchannn!! Txu Txu Tu Paaaaa!! Vem, vem ordinária!! Venha provar do meu dendê que você não vai se arrepender. Só na sacanageeem!! Eu gostchu muitchu, heinn! Eitchaaa template cheio de abundância danadaaa!! Assim você mata o papai hein!? Etâaaa Mainhaaaaa...me abusa nesse seu layout, me gera, me geraaaa ordinária!!! Só na sacanagem!!!! Venha provar do meu dendê Tu du du pááá!.
-                        Mas que abundância meu irmãooo!!! Esse é seu Layout danadaaa!??? Sabe de nada inocente!! Vem, vem, vem ordinária, provar do meu dendê!! Eu gostxuu muitxuu desse seu Layout!! Etâ danadaaaa!! Tá tão lindo que vou falar em inglês só pra você mainhaaa!! Know nothing innocent. Ordinary!! Txhann Txhann, Txu txu tu paaa!! Damned. Only in Slutty!! Abundance that my borther!! Tchan, Tchan, Tchan...Tu tu tu pa!!!!  .
+                    <p>
+                        Hii! How are you ? I'm Vinicius Gribel, software developer apprentice at <p class="emphasis">Bosch</p> Brazil 
                     </p>
+                    <p>I'm the youger brother of two sister, they have 35 and 31 year old, I live in Curiba  with my Mom and my middle sister.</p>
+                    <p>I really like technology and related things, but mostly I like the backend and dealing with data.</p>
+                    <p>Currently studying production engineering but my true love is programming in a near future i want to work with product development For this I want to have knowledge in many technologies and be able to develop any application</p>
                 </div>
-                {/* <div class="gallery">
-                    <img src="https://img.fae.edu/galeria/getImage/351/15119331788147285.jpg" alt=""  class="img-one" />
-                    <img src="https://img.fae.edu/galeria/getImage/351/15119331788147285.jpg" alt="" />
-                </div> */}
+ 
 
             </div>
 
