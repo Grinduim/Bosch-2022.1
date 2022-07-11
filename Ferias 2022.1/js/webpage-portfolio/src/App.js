@@ -3,6 +3,7 @@ import Header from './components/header';
 import Cover from './screen/Cover';
 import About from './screen/About';
 import Skills from './screen/Skills';
+import Contact from './screen/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Cover/>
       <About/>
       <Skills/>
+      <Contact/>
     </>
 
   );

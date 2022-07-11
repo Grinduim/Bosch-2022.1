@@ -3,7 +3,7 @@ import { AboutStyled } from "./styled";
 
 export default function About() {
     return (
-        <AboutStyled>
+        <AboutStyled >
 
             <h1 id="about">About</h1>
             <div className="container-about">
